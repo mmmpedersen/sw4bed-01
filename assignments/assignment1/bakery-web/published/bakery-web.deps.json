@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "bakery-web/1.0.0": {
+        "dependencies": {
+          "bakery-data": "1.0.0"
+        },
+        "runtime": {
+          "bakery-web.dll": {}
+        }
+      },
+      "bakery-data/1.0.0": {
+        "runtime": {
+          "bakery-data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "bakery-web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bakery-data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
