@@ -1,5 +1,5 @@
 version: "3.9"  # optional since v1.27.0
-service1: 
+services: 
   api:
     build:
         dockerfile: Dockerfile.API
@@ -9,18 +9,5 @@ service1:
       - db
   db:
     image: bakery-api 
-    ports:
-      - "1433:1433"
-
-      service2: 
-  api:
-    build:
-        dockerfile: Dockerfile.WEB
-    ports:
-      - "5000:80"
-    depends_on:
-      - db
-  db:
-    image: bakery-web 
     ports:
       - "1433:1433"
